@@ -1,0 +1,100 @@
+body{
+    text-align: center;
+    margin: 0%;
+}
+.menu{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    margin-top: 0px;
+}
+.links{
+    display: inline;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+a{
+    text-decoration: none;
+    color: brown;
+    text-shadow: 2px 2px 2px grey;
+}
+/* Pseudo classes - synatx:*/
+.links:hover{
+    font-size: 30px;
+    text-decoration: underline;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* gradient effect */
+#welcome{
+    background-image: linear-gradient(aqua, teal);
+    color: rgb(192, 232, 226);
+}
+.profile{
+    border-radius: 50%;
+    margin-top: 50px;
+}
+h1{
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+}
+#name{
+    font-size: 60px;
+    line-height: 1.6;
+    font-family: 'Pacifico', cursive;
+}
+h2{
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Courier New', Courier, monospace;
+}
+#bio{
+    padding: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+.line{
+    height: 6px;
+    background-color: darkblue;
+    width: 100px;
+    margin: auto;
+
+}
+p{
+    font-size: 25px;
+}
+#writings a{
+    text-shadow: none;
+    text-decoration: underline;
+}
+#writings a:hover{
+    color: darkblue;
+}
+#contact{
+    background-color: antiquewhite;
+}
+#contact iframe{
+    width: 100%;
+}
+.contact_1 h3{
+    display: inline;
+}
+.contact_1 a{
+    text-shadow: none;
+}
+.contact_1 a:hover{
+    color: darkblue;
+}
+#bio{
+    background-color: aquamarine;
+    margin: 0%;
+}
+#videos{
+    background-color: beige;
+}
+#work{
+    background-color: rgb(249, 190, 190);
+}
